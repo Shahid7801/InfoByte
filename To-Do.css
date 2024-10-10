@@ -1,0 +1,124 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: whitesmoke;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .container {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      background: #100b0b;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  }
+  H1{
+    text-align: center;
+    margin-top: 0;
+    color: #52b0ad;
+  }
+  
+   h2 {
+      text-align: start;
+      font-size: 15px;
+
+  }
+  
+  input {
+      width: calc(100% - 22px);
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+  }
+  ::placeholder{
+    color: green;
+  }
+  
+  button {
+      width: 100%;
+      margin: 0 auto;
+      padding: 10px;
+      background: #28a745;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+  }
+  
+  button:hover {
+      background: #1f612d;
+      color: #ede7e7;
+  }
+  
+  ul {
+      list-style-type: none;
+      color: black;
+      padding: 0;
+  }
+  
+  li {
+      background: #7e9997;
+      padding-left: 5px;
+      margin: 5px 0;
+      border-radius: 3px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;    flex-wrap: wrap;
+  }
+  
+  li.completed {
+      text-decoration: line-through;
+      background: #7e9997;
+  }
+  .box{
+    display: flex;
+    justify-content: right;
+    margin-right: 0;
+  }
+  .edit-btn {
+      background: #1b2229;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      width: 50px;
+      color: #ffffff;
+      height: 35px;
+      margin: 2px;
+  }
+  .delete-btn{
+    background:#1b2229;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 50px;
+    height: 35px;
+text-align: center;
+    font-size: large;
+    margin: 2px;
+
+
+  }
+  .delete-btn:hover{
+    background: #881010;
+    color: rgb(255, 255, 255);
+    
+  }
+  .complete-btn{
+    background:#1b2229;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 2px;
+height: 35px;
+    width: 50px;    overflow: hidden;
+}
+.complete-btn:hover{
+    background: #263443;
+}
+
+
+
+
